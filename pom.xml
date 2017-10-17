@@ -125,6 +125,7 @@
             <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
             <!-- <Fragment-Host></Fragment-Host> -->
 			<Import-Package>
+			    !net.sf.saxon.*,
 				org.apache.xml.resolver.*;resolution:=optional,
 				*
 			</Import-Package>
